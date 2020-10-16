@@ -33,8 +33,6 @@ function App() {
             <Home></Home>
           </Route>
           <Route path="/login" >
-            <h3>Name: {loggedInUser.name}</h3>
-            <p>Email: {loggedInUser.email}</p>
             <Login></Login>
           </Route>
           <PrivateRoute path="/order" >
