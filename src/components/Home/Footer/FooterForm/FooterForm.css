@@ -1,0 +1,49 @@
+.footerForm-container{
+    padding-top: 50px;
+}
+
+.footerForm-left h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: 0.396px;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+}
+.footerForm-left small{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.footerForm-btn{
+    background:#111430;
+	color: #fff;
+	padding: 7px 50px;
+	border: 2px solid #fff;
+	border-radius: 0;
+	position: relative;
+	z-index: 0;
+}
+.footerForm-btn::after{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	background: #fb414e;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transform: scale(0);
+	transform-origin: top left;
+	transition: 0.4s linear;
+}
+.footerForm-btn:hover::after{
+	transform: scale(1);
+	transform-origin: top right;
+}

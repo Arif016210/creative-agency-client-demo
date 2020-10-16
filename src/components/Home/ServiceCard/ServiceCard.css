@@ -1,0 +1,44 @@
+Link{
+    text-decoration: none;
+}
+.serviceCard-container{
+    text-align: center;
+    font-family: Poppins;
+}
+.card-img{
+    width: 74px;
+    height: 74px;
+}
+.card-container{
+    background: #111430;
+    height: 100%;
+    padding: 12%;
+    color: #fff;
+    transition: 0.5s linear;
+    position: relative;
+    z-index: 1;
+}
+.card-container img{
+    margin-bottom: 20px;
+}
+.card-container h5{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.card-container::after{
+	content: "";
+	position: absolute;
+	background: #fb414e;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	transform: scale(0);
+	transform-origin: top left;
+	transition: 0.4s linear;
+}
+.card-container:hover::after{
+	transform: scale(1);
+	transform-origin: bottom right;
+}

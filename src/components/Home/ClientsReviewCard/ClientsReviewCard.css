@@ -1,0 +1,43 @@
+.clientsReviewCard-container{
+    text-align: center;
+    font-family: Poppins;
+    margin-bottom: 30px;
+}
+.clientsReviewCard-img{
+    width: 74px;
+    height: 74px;
+}
+.clientsReviewCard{
+    background: #111430;
+    height: 100%;
+    padding: 12%;
+    color: #fff;
+    transition: 0.5s linear;
+    position: relative;
+    z-index: 1;
+}
+.clientsReviewCard img{
+    margin-bottom: 20px;
+}
+.clientsReviewCard h5{
+    font-weight: 700;
+}
+.clientsReviewCard h6{
+    margin-bottom: 30px;
+}
+.clientsReviewCard::after{
+	content: "";
+	position: absolute;
+	background: #fb414e;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	transform: scale(0);
+	transform-origin:left right;
+	transition: 0.4s linear;
+}
+.clientsReviewCard:hover::after{
+	transform: scale(1);
+}

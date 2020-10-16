@@ -1,0 +1,40 @@
+.google-btn{
+	background:#111430;
+	margin: 0% 0% 2% 21%;
+	color: #fff ;
+	padding: 7px 50px;
+	border: 2px solid #fff;
+	border-radius: 57px;
+	position: relative;
+	z-index: 0;
+}
+.google-btn::after{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	background: #fb414e;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transform: scale(0);
+	transform-origin: left ;
+	transition: 0.4s linear;
+}
+.google-btn:hover::after{
+    border-radius: 57px;
+	transform: scale(1);
+	transform-origin:  right;
+}
+
+.google-section{
+	border: 1px solid gray;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.google-logo{
+	width: 30%;
+	margin-left: 32%;
+    margin-bottom: 10%;
+}

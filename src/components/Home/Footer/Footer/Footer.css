@@ -1,0 +1,17 @@
+.footer-container{
+    background: #FBD062;
+    padding-top: 80px ;
+
+}
+.footer-container p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.7);
+}
