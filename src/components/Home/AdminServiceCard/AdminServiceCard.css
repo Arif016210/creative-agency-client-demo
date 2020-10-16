@@ -1,0 +1,43 @@
+.addServiceCard-container{
+    text-align: center;
+    font-family: Poppins;
+    margin-bottom: 30px;
+}
+.addServiceCard-img{
+    width: 74px;
+    height: 74px;
+}
+.addServiceCard{
+    background: #111430;
+    height: 100%;
+    padding: 12%;
+    color: #fff;
+    transition: 0.5s linear;
+    position: relative;
+    z-index: 1;
+}
+.addServiceCard img{
+    margin-bottom: 20px;
+}
+.addServiceCard h5{
+    font-weight: 700;
+}
+.addServiceCard h6{
+    margin-bottom: 30px;
+}
+.addServiceCard::after{
+	content: "";
+	position: absolute;
+	background: #fb414e;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	transform: scale(0);
+	transform-origin:left right;
+	transition: 0.4s linear;
+}
+.addServiceCard:hover::after{
+	transform: scale(1);
+}

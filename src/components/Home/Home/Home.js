@@ -7,6 +7,7 @@ import WorkSlider from '../WorkSlider/WorkSlider';
 import ClientFeedBack from '../ClientFeedBack/ClientFeedBack';
 import Footer from '../Footer/Footer/Footer';
 import ClientsReview from '../ClientsReview/ClientsReview';
+import AdminService from '../AdminService/AdminService';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Header></Header>
             <BrandLogo></BrandLogo>
             <Services></Services>
+            <AdminService></AdminService>
             <WorkSlider></WorkSlider>
             <ClientFeedBack></ClientFeedBack>
             <ClientsReview></ClientsReview>
