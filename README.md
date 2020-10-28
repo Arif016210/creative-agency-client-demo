@@ -4,7 +4,7 @@
 
 ## This is a full-stack project. Nice looking front page, this project includes clients & admin panel, Dashboard, google login, etc. 
 
-# --- features 
+# features 
 
  ### ✓ This Project two dashboard, user dashboard & admin dashboard
 
@@ -20,13 +20,13 @@
  
  # Components :
  
-			### ➢ Technology: React, React Bootstrap, React Router, HTMl, CSS etc.
-			
-			### ➢ Authentication: Google Firebase
-			
-			### ➢ Database: MongoDB
-			
-			### ➢ Server: NodeJs
+		### ➢ Technology: React, React Bootstrap, React Router, HTMl, CSS etc.
+
+		### ➢ Authentication: Google Firebase
+
+		### ➢ Database: MongoDB
+
+		### ➢ Server: NodeJs
  
 ## GitHub Repository Link:
  
