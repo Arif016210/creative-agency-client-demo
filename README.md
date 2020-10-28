@@ -12,7 +12,7 @@
  
  ### ✓ User Easly see her order list.
  
- ### ✓ This Project very important past Admin panel. 
+ ### ✓ This Project very important part Admin panel. 
  
  ### ✓ Admin all access to this project, as like check all user service list, add any service.
  
