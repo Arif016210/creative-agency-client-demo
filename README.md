@@ -13,29 +13,6 @@ This is a full-stack project. Nice looking front page, this project includes cli
  ✓Git Repository link: https://github.com/Arif016210/creative-agency-client-demo
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
