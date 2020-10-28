@@ -1,4 +1,4 @@
-# Creative Agency Project : Site Link: https://objective-hawking-823ada.netlify.app/ 
+# Creative Agency Project : https://objective-hawking-823ada.netlify.app/ 
 
 ## This is a full-stack project. Nice looking front page, this project includes clients & admin panel, Dashboard, google login, etc. 
 
@@ -25,10 +25,6 @@
 			### ➢ Database: MongoDB
 			
 			### ➢ Server: NodeJs
-
-## Live Site Link: 
-
- ✓ Site Link: https://objective-hawking-823ada.netlify.app/ 
  
 ## GitHub Repository Link:
  
