@@ -15,9 +15,13 @@ This is a full-stack project. Nice looking front page, this project includes cli
 			➢ Server: NodeJs
 
 
- ✓Site Link: https://objective-hawking-823ada.netlify.app/ 
+ ✓ Site Link: https://objective-hawking-823ada.netlify.app/ 
  
- ✓Git Repository link: https://github.com/Arif016210/creative-agency-client-demo
+ ✓ Git Repository link: https://github.com/Arif016210/creative-agency-client-demo
+ 
+ ✓ Linkdin: https://www.linkedin.com/in/md-ariful-islam-2020/
+ 
+ ✓ Gmail: arifulislamwasim@gmail.com
 
 
 
