@@ -4,7 +4,7 @@
 
 ## This is a full-stack project. Nice looking front page, this project includes clients & admin panel, Dashboard, google login, etc. 
 
-# features ---
+# --- features 
 
  ### ✓ This Project two dashboard, user dashboard & admin dashboard
 
